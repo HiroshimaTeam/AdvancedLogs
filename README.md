@@ -1,9 +1,9 @@
 ## Table of Contents
-1. [Présentation](#présentation)
+1. [Presentation](#presentation)
 2. [installation](#installation)
 3. [Features](#features)
 4. [FAQs](#faqs)
-### Présentation
+### Presentation
 ***
 Advanced Logs allows to have a trace of the actions performed on the server!
 ![Image text](https://www.pngkit.com/png/detail/17-179788_discord-logo-png.png)
