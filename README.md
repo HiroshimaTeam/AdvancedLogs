@@ -18,7 +18,6 @@ Future updates:
 * Know the number of players connected thanks to a planned task
 * View players' private messages
 * Events call when a log will be sent to discord
-Side information: To use the application in a special environment use ```lorem ipsum``` to start
 ## Collaboration
 ***
 HiroTeam !
