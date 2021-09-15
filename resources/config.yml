@@ -1,0 +1,49 @@
+---
+# Welcome to the plugin configuration - AdvancedLogs 1.0.0 -
+# Discord: https://discord.gg/rGkd4963qy
+# Author: ! Refaltor#7393
+# tags:
+
+# {player} = player name - (all logs)
+# {block_name} = block name - (block_break, block_place)
+# {id} = block id - (block_place, block_break)
+# {victim} = player dead name - (player_death)
+# {killer} = player killer name - (player_death)
+# {time} = hour:minutes:second - (all logs)
+
+logs:
+  messages:
+    active: true # true or false
+    log: "{time} {player} >> {msg}"
+    url: "webhook url"
+
+
+  block_break:
+    active: false
+    log: "{time} {player} {block_name}"
+    url: "webhook url"
+
+
+  block_place:
+    active: false
+    log: "{time} {player} {block_name}"
+    url: "webhook url"
+
+
+  player_join:
+    active: true
+    log: "{time} {player} has joined the server"
+    url: "webhook url"
+
+
+  player_quit:
+    active: true
+    log: "{time} {player} has leave the server"
+    url: "webhook url"
+
+
+  player_death:
+    active: true
+    log: "{time} {victim} was killed by {killer}"
+    url: "webhook url"
+...

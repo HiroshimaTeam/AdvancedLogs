@@ -1,0 +1,6 @@
+name: AdvancedLogs
+version: 1.0.0
+api: 3.0.0
+main: Refaltor\AdvancedLogs\Loader
+author: Refaltor
+description: Plugin of logs
